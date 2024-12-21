@@ -1,10 +1,4 @@
-// // Отфильтровать задачи в переменные а и b
-    // Сохранить количество в ключе count
-    // Сохранить сами задачи в массиве-ключе arr
-    
-    
-    
-    let arr = [
+let arr = [
         {
             userId: 1,
             "id": 1,
@@ -78,8 +72,6 @@ true
         count: 0,
         arr: []
     }
-
-
     arr.forEach(task => {
         if (task.completed) {
             b.arr.push(task);
@@ -89,6 +81,6 @@ true
             a.count++;
         }
     });
-    
+
     console.log(a);
     console.log(b); 
